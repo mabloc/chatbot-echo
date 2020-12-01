@@ -17,7 +17,7 @@ func main() {
 	engine := gin.Default()
 
 	engine.GET("/echo", func(ctx *gin.Context) {
-		ctx.String(200, "Hello ChatBot Echo!\n\nconfig:%s", configPath)
+		ctx.String(200, "Hello ChatBot Echo!\nv2\n\nconfig:%s", configPath)
 	})
 
 	if err := engine.Run(":8080"); err != nil {
