@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/bin/bash
 ./bin/bot-echo -c "config.toml"
