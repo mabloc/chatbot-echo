@@ -1,2 +1,2 @@
 #!/bin/bash
-./bin/bot-echo -c "config.toml"
+./bin/bot-echo -c "develop.toml"
